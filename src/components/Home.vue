@@ -1,19 +1,9 @@
 <template>
-  <span class="home">
-  </span>
+  <div id="renderBox">
+    <canvas id="renderTarget"></canvas>
+  </div>
 </template>
-<script lang="ts">
-import { Component, Vue } from 'vue-property-decorator'
-
-@Component
-export default class Home extends Vue {
-  mounted() {
-    console.log('Home mounted')
-  }
-}
-</script>
-
-<style lang="home">
-/* .component {
-} */
+<style lang="postcss">
 </style>
+
+<script lang="ts" src="./Home.ts"></script>
