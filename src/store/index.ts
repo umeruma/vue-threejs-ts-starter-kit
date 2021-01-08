@@ -1,7 +1,7 @@
 import Vue from "vue"
 import Vuex from "vuex"
 import VuexPersistence from "vuex-persist"
-import Module from "./modules/module"
+import Module from "@/store/modules/StoreModule"
 
 Vue.use(Vuex)
 
